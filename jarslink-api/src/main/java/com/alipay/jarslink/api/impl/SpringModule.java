@@ -24,6 +24,7 @@ import com.alipay.jarslink.api.ModuleRuntimeException;
 import com.google.common.base.Function;
 import com.google.common.collect.Maps;
 import org.apache.commons.lang.builder.ToStringBuilder;
+import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -186,6 +187,7 @@ public class SpringModule implements Module {
         closeQuietly(applicationContext);
         //clean classloader
         clear(applicationContext.getClassLoader());
+
     }
 
     /**
@@ -200,7 +202,7 @@ public class SpringModule implements Module {
         ResourceBundle.clearCache(classLoader);
         //Clear the introspection cache for the given ClassLoader
         CachedIntrospectionResults.clearClassLoader(classLoader);
-        LogFactory.release(classLoader);
+        //LogFactory.release(classLoader);
     }
 
     /**
