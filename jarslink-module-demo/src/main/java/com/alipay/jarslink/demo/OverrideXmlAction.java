@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
  * @author joe
  * @version 2018.04.01 00:03
  */
-@Component("xmlAction")
+@Component("overrideXmlAction")
 public class OverrideXmlAction implements Action<String, String> {
     @Override
     public String execute(String actionRequest) {

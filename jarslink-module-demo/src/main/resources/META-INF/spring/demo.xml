@@ -8,11 +8,10 @@
          http://www.springframework.org/schema/webflow-config http://www.springframework.org/schema/webflow-config/spring-webflow-config-2.0.xsd"
        default-autowire="byName">
 
-    <context:annotation-config/>
+   <!-- <context:annotation-config/>
 
     <bean id="helloWorldAction"
           class="com.alipay.jarslink.demo.HelloWorldAction"/>
-
 
     <bean id="overrideTestBeanAction"
           class="com.alipay.jarslink.demo.OverrideTestBeanAction">
@@ -23,5 +22,5 @@
           class="com.alipay.jarslink.demo.HelloWorldBean"/>
 
     <bean id="xmlAction"
-          class="com.alipay.jarslink.demo.XmlAction"/>
+          class="com.alipay.jarslink.demo.XmlAction"/>-->
 </beans>

@@ -1,6 +1,7 @@
 package com.alipay.jarslink.demo;
 
 import com.alipay.jarslink.api.Action;
+import org.springframework.stereotype.Component;
 
 /**
  * 一个简单的执行Action实现
@@ -10,6 +11,7 @@ import com.alipay.jarslink.api.Action;
  * Created by liangyh on 2018/4/2.
  * Email:10856214@163.com
  */
+@Component
 public class ProcessAction implements Action<String, String> {
 
     @Override

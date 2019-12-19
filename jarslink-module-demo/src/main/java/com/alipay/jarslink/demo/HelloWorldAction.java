@@ -2,10 +2,12 @@ package com.alipay.jarslink.demo;
 
 import com.alipay.jarslink.api.Action;
 import com.alipay.jarslink.api.ModuleConfig;
+import org.springframework.stereotype.Component;
 
 /**
  * 一个简单的Action实现
  */
+@Component
 public class HelloWorldAction implements Action<ModuleConfig, ModuleConfig> {
     @Override
     public ModuleConfig execute(ModuleConfig actionRequest) {

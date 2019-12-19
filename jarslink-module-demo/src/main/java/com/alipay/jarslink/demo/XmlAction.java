@@ -1,6 +1,7 @@
 package com.alipay.jarslink.demo;
 
 import com.alipay.jarslink.api.Action;
+import org.springframework.stereotype.Component;
 
 /**
  * XML bean ，定义在xml中，此action将覆盖{@link com.alipay.jarslink.demo.OverrideXmlAction}
@@ -10,6 +11,7 @@ import com.alipay.jarslink.api.Action;
  * @author joe
  * @version 2018.03.31 23:10
  */
+@Component
 public class XmlAction implements Action<String, String> {
     @Override
     public String execute(String actionRequest) {
