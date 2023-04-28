@@ -5,16 +5,16 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.alipay.jarslink</groupId>
     <artifactId>jarslink-api</artifactId>
-    <version>1.6.1.20191218</version>
+    <version>1.0.0.20230429</version>
     <name>Alipay JarsLink API</name>
-    <url>https://github.com/alibaba/jarslink</url>
+    <url>https://github.com/EvanLeung08/eshare-jarslink</url>
     <packaging>jar</packaging>
     <description>Alipay JarsLink API</description>
 
     <properties>
         <slf4j.version>1.7.7</slf4j.version>
         <apache.commons.lang.version>2.6</apache.commons.lang.version>
-        <org.springframework.version>5.2.2.RELEASE</org.springframework.version>
+        <org.springframework.version>5.3.27</org.springframework.version>
         <apache.commons.collections.version>3.2.1</apache.commons.collections.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
